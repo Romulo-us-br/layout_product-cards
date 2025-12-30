@@ -1,3 +1,17 @@
 body {
   margin: 0;
 }
+
+.review__product{
+  
+}
+
+.review__stars .stars1{
+  background-image: url('../images/star.svg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+}
