@@ -29,18 +29,18 @@ body {
   font-size: 12px;
   margin-bottom: 4px;
   margin-inline: 16px;
-  color: #000;
+  color: $color-black;
 }
 
 .card__price-title {
   font-weight: 400;
   font-size: 12px;
-  color: #616070;
+  color: $color-gray;
 }
 
 .card__code {
   font-size: 10px;
-  color: #616070;
+  color: $color-gray;
   font-weight: 400;
   margin-bottom: 16px;
   margin-inline: 16px;
@@ -77,16 +77,16 @@ body {
 }
 
 .card__value {
-  color: #616070;
+  color: $color-gray;
 }
 
 .card__button-buy {
   margin-inline: 16px;
 
-  color: #fff;
+  color: $color-white;
   font-weight: 700;
   border-radius: 5px;
-  background-color: #00acdc;
+  background-color: $color-primary;
   text-transform: uppercase;
   min-width: 166px;
   height: 40px;
@@ -94,7 +94,7 @@ body {
 }
 
 .card__button-buy:hover {
-  border: 1px solid #00acdc;
-  color: #00acdc;
-  background-color: #fff;
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  background-color: $color-white;
 }
